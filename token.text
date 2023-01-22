@@ -1,0 +1,10 @@
+GH_TOKEN = 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
+
+
+
+Write more queries (kyle does but write change what i populate and variables, add to user model)
+Basic flow of model/controller/route and view ejs file.. make route that create smth in database to see how it all connects 
+
+***
+Create new end point lets me query for a user
+new users route should be called /users/get - should take in name from request.body, should be GET request - should return back user we looked for in Json in response 

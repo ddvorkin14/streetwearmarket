@@ -1,7 +1,8 @@
 const User = require("../models/User");
 async function getUsers(req, res){
   try {
-    // code to pull data from mongoose
+    const users = User.find({});
+    return res.status(201).json(users);
   } catch (e) {
     console.log(e.message); 
   }

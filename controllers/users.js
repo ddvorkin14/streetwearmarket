@@ -1,5 +1,11 @@
 const User = require("../models/User");
-
+async function getUsers(req, res){
+  try {
+    // code to pull data from mongoose
+  } catch (e) {
+    console.log(e.message); 
+  }
+}
 async function createUser(req, res) {
   try {
     const user = await User.create({

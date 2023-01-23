@@ -7,4 +7,4 @@ Basic flow of model/controller/route and view ejs file.. make route that create 
 
 ***
 Create new end point lets me query for a user
-new users route should be called /users/get - should take in name from request.body, should be GET request - should return back user we looked for in Json in response 
+new users route should be called /users/get - should take in name from request.body, should be GET request - should return back user we looked for in Json in response --A
